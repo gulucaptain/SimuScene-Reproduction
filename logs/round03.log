@@ -1,0 +1,86 @@
+{
+  "correct/hanging": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9995461919719375,
+    "size_relative_error": 0.0,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.03498077984113479
+  },
+  "correct/penetrating": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9988308267441809,
+    "size_relative_error": 0.0008267703563634583,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10128819650344667
+  },
+  "correct/pose_error": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9194320221369208,
+    "size_relative_error": 0.062167611330613104,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.09575782684623846
+  },
+  "correct/rotated": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.997840092319596,
+    "size_relative_error": 0.0015349620964063891,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.09510582931397948
+  },
+  "correct/short": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9978397406631963,
+    "size_relative_error": 0.0015349620964063891,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.09361247912238468
+  },
+  "correct/stack": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9965346488976802,
+    "size_relative_error": 0.0015349620964064553,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10379805080447113
+  },
+  "settle/hanging": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9995461919719375,
+    "size_relative_error": 0.0,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.03464601047380711
+  },
+  "settle/penetrating": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9259222053584771,
+    "size_relative_error": 0.0579852385036083,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.07794923959227162
+  },
+  "settle/pose_error": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9993920202503623,
+    "size_relative_error": 0.0,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.0771512238716241
+  },
+  "settle/rotated": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9452682863837872,
+    "size_relative_error": 0.03914672138100814,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.07828469143714756
+  },
+  "settle/short": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9452659063576769,
+    "size_relative_error": 0.03914672138100814,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.07835640099801822
+  },
+  "settle/stack": {
+    "stability_all": 0.9921875,
+    "aabb_iou": 0.8961913782421276,
+    "size_relative_error": 0.03914672138100814,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.08639473440780421
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "args": {
+    "round": 4,
+    "seeds": 32,
+    "workers": 8
+  },
+  "elapsed": 6.614538332913071,
+  "platform": "macOS-15.7.1-arm64-arm-64bit",
+  "source_sha256": {
+    "__init__.py": "8b75687353c0d4e96989afd412451139668aaf04f21f2175b5573317b8e2eeb3",
+    "core.py": "9ee307968e66a3f22f55a76e25332a2504031b3ff891bd8178fd1bdee454caec",
+    "run_scene.py": "76239936b5fa3b0556881c7a2760d624af58c382930beb65332e78af5417038a",
+    "experiment.py": "41883625fa81e4eb0cda5d069b2d9ceab8569e5c41b249a5b35e3639c0825c17",
+    "assets.py": "4d669dee1243afa8ffea8b6cbbd104c7c02a47427ffcb6c924e257e982abb4e7"
+  }
+}

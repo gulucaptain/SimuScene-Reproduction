@@ -1,0 +1,7 @@
+{
+  "stability_all": 1.0,
+  "aabb_iou": 0.9446671569359427,
+  "size_relative_error": 0.03953362873089242,
+  "penetrating_fraction": 0.0,
+  "seconds": 0.09204751565994229
+}

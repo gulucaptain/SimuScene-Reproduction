@@ -1,0 +1,322 @@
+{
+  "correct:0.05/hanging": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9995443944171913,
+    "size_relative_error": 0.0,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.04040040497238806,
+    "paper_stability_eligible": null,
+    "stability_eligible_count": 0.0,
+    "unresolved_fraction": 0.0
+  },
+  "correct:0.05/mesh": {
+    "stability_all": 0.923828125,
+    "aabb_iou": 0.8840896115625959,
+    "size_relative_error": 0.03148836923488128,
+    "penetrating_fraction": 0.0078125,
+    "seconds": 0.1490516653902887,
+    "paper_stability_eligible": 0.923828125,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.58203125
+  },
+  "correct:0.05/penetrating": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9259215271939545,
+    "size_relative_error": 0.05812882109414786,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.11338298170630878,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 1.0
+  },
+  "correct:0.05/pose_error": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9993897404303915,
+    "size_relative_error": 0.0,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.1058418079301191,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 1.0
+  },
+  "correct:0.05/rotated": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9562739455644249,
+    "size_relative_error": 0.03148836923488128,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10643413215439068,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.58203125
+  },
+  "correct:0.05/severe": {
+    "stability_all": 0.0,
+    "aabb_iou": 0.649498170346905,
+    "size_relative_error": 0.25431359228689665,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10753517321245454,
+    "paper_stability_eligible": 0.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 1.0
+  },
+  "correct:0.05/short": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9562726011596085,
+    "size_relative_error": 0.03148836923488128,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10531088152674783,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.58203125
+  },
+  "correct:0.05/stack": {
+    "stability_all": 0.982421875,
+    "aabb_iou": 0.9181531298271465,
+    "size_relative_error": 0.031488369234881304,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.11662432744378748,
+    "paper_stability_eligible": 0.982421875,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.58203125
+  },
+  "correct:0.15/hanging": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9995443944171913,
+    "size_relative_error": 0.0,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.040713966789553524,
+    "paper_stability_eligible": null,
+    "stability_eligible_count": 0.0,
+    "unresolved_fraction": 0.0
+  },
+  "correct:0.15/mesh": {
+    "stability_all": 0.966796875,
+    "aabb_iou": 0.9558938477884718,
+    "size_relative_error": 0.001543392325304727,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.15034390426626487,
+    "paper_stability_eligible": 0.966796875,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "correct:0.15/penetrating": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9988262080756982,
+    "size_relative_error": 0.0008295934860212074,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.11439749554847367,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "correct:0.15/pose_error": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9191825709492535,
+    "size_relative_error": 0.06237989183489194,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.1067336419455387,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "correct:0.15/rotated": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9978325625908044,
+    "size_relative_error": 0.001543392325304727,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10568887633417035,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "correct:0.15/severe": {
+    "stability_all": 0.0,
+    "aabb_iou": 0.649498170346905,
+    "size_relative_error": 0.25431359228689665,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10730736779987637,
+    "paper_stability_eligible": 0.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 1.0
+  },
+  "correct:0.15/short": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9978321962426118,
+    "size_relative_error": 0.001543392325304727,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10699584046233213,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "correct:0.15/stack": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9965958889020404,
+    "size_relative_error": 0.0015433923253047937,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.11707242383090488,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "correct:0.30/hanging": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9995443944171913,
+    "size_relative_error": 0.0,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.04014046159318241,
+    "paper_stability_eligible": null,
+    "stability_eligible_count": 0.0,
+    "unresolved_fraction": 0.0
+  },
+  "correct:0.30/mesh": {
+    "stability_all": 0.966796875,
+    "aabb_iou": 0.9558938477884718,
+    "size_relative_error": 0.001543392325304727,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.15038435283713625,
+    "paper_stability_eligible": 0.966796875,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "correct:0.30/penetrating": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9988262080756982,
+    "size_relative_error": 0.0008295934860212074,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.11419305924573564,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "correct:0.30/pose_error": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9191825709492535,
+    "size_relative_error": 0.06237989183489194,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10766648564640491,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "correct:0.30/rotated": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9978325625908044,
+    "size_relative_error": 0.001543392325304727,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10639375718164956,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "correct:0.30/severe": {
+    "stability_all": 0.0,
+    "aabb_iou": 0.649498170346905,
+    "size_relative_error": 0.25431359228689665,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10831472329482494,
+    "paper_stability_eligible": 0.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 1.0
+  },
+  "correct:0.30/short": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9978321962426118,
+    "size_relative_error": 0.001543392325304727,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10742990556536824,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "correct:0.30/stack": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9965958889020404,
+    "size_relative_error": 0.0015433923253047937,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.11674685154321196,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "settle/hanging": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9995443944171913,
+    "size_relative_error": 0.0,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.040356089903070824,
+    "paper_stability_eligible": null,
+    "stability_eligible_count": 0.0,
+    "unresolved_fraction": 0.0
+  },
+  "settle/mesh": {
+    "stability_all": 0.873046875,
+    "aabb_iou": 0.8340427338003744,
+    "size_relative_error": 0.03941012012972847,
+    "penetrating_fraction": 0.00390625,
+    "seconds": 0.0915190806863393,
+    "paper_stability_eligible": 0.873046875,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "settle/penetrating": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9259222437197756,
+    "size_relative_error": 0.05812882109414786,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.0889878105808748,
+    "paper_stability_eligible": null,
+    "stability_eligible_count": 0.0,
+    "unresolved_fraction": 0.0
+  },
+  "settle/pose_error": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9993897404303915,
+    "size_relative_error": 0.0,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.0884516739333776,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "settle/rotated": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9451689336502873,
+    "size_relative_error": 0.03941012012972847,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.08869400580806541,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "settle/severe": {
+    "stability_all": 0.0,
+    "aabb_iou": 0.649498170346905,
+    "size_relative_error": 0.25431359228689665,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.08661053057585377,
+    "paper_stability_eligible": 0.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "settle/short": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9451666224985482,
+    "size_relative_error": 0.03941012012972847,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.08870152465897263,
+    "paper_stability_eligible": 1.0,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  },
+  "settle/stack": {
+    "stability_all": 0.982421875,
+    "aabb_iou": 0.894434517724279,
+    "size_relative_error": 0.03941012012972847,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.09785110613847792,
+    "paper_stability_eligible": 0.982421875,
+    "stability_eligible_count": 8.0,
+    "unresolved_fraction": 0.0
+  }
+}

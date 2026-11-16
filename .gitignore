@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.cache/
+
+.DS_Store
+*.pt
+sources/paper.html
+sources/paper.txt
+results/round05_before_vhacd/
+logs/tests*.log
+logs/mps_validation.log

@@ -1,0 +1,20 @@
+{
+  "local_iterations": 5,
+  "paper_reproduction_complete": false,
+  "status": "partial independent local reproduction",
+  "hardware": {
+    "machine": "MacBook Pro",
+    "chip": "Apple M4 Pro",
+    "cpu_cores": 12,
+    "gpu_cores": 16,
+    "unified_memory_gb": 48
+  },
+  "tests_passed": 8,
+  "missing": [
+    "Image-to-scene pretrained pipeline",
+    "SAM3D FM-DPO training and learned resampler",
+    "Original GraspClutter6D/ADT/GenWild benchmarks",
+    "Downstream robot policy experiments"
+  ],
+  "repository": "https://github.com/gulucaptain/SimuScene-Reproduction"
+}

@@ -1,0 +1,16 @@
+{
+  "correct": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9978397406631963,
+    "size_relative_error": 0.0015349620964063891,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.09214194274682086
+  },
+  "settle": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9452659063576769,
+    "size_relative_error": 0.03914672138100814,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.08218134907292551
+  }
+}

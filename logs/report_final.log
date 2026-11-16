@@ -1,0 +1,18 @@
+# Local results — not the paper benchmark
+
+2048 scene-method runs; 64 seeds, 8 objects per scene; 8 CPU workers.
+
+| Scene | Settle IoU | Correct IoU | Difference | Unresolved fraction |
+|---|---:|---:|---:|---:|
+| short | 0.94517 | 0.99783 | +0.05267 | 0.000 |
+| penetrating | 0.92592 | 0.99883 | +0.07290 | 0.000 |
+| stack | 0.89443 | 0.99660 | +0.10216 | 0.000 |
+| rotated | 0.94517 | 0.99783 | +0.05266 | 0.000 |
+| pose_error | 0.99939 | 0.91918 | -0.08021 | 0.000 |
+| mesh | 0.83404 | 0.95589 | +0.12185 | 0.000 |
+| severe | 0.64950 | 0.64950 | +0.00000 | 1.000 |
+| hanging | 0.99954 | 0.99954 | +0.00000 | 0.000 |
+
+Pose-only errors are an explicit counterexample: shape correction can damage correct geometry. Severe errors remain unresolved without a learned resampling model. Convex test meshes use direct hulls. The final implementation supports V-HACD for concave file inputs; this additional path is checked separately, not included in the synthetic benchmark.
+
+Figures: [comparison](comparison.png), [scenes](scenes.png). Raw per-object states: [raw.json](raw.json).

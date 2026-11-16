@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "simuscene-local"
+version = "0.1.0"
+description = "Independent local reproduction of SimuScene geometry and physics modules"
+requires-python = ">=3.12"
+dependencies = ["numpy", "scipy", "mujoco", "trimesh", "matplotlib", "pillow", "vhacdx"]
+[project.scripts]
+simuscene-experiment = "simuscene.experiment:main"
+[project.optional-dependencies]
+dev = ["pytest"]
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+pythonpath = ["src"]

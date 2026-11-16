@@ -1,0 +1,114 @@
+{
+  "correct/hanging": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9995461919719375,
+    "size_relative_error": 0.0,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.03741487365914509
+  },
+  "correct/mesh": {
+    "stability_all": 0.97265625,
+    "aabb_iou": 0.9605189531190841,
+    "size_relative_error": 0.0015349620964063891,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.14445794387211208
+  },
+  "correct/penetrating": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9988308267441809,
+    "size_relative_error": 0.0008267703563634583,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10850012500304729
+  },
+  "correct/pose_error": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9194320221369208,
+    "size_relative_error": 0.062167611330613104,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10219433726524585
+  },
+  "correct/rotated": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.997840092319596,
+    "size_relative_error": 0.0015349620964063891,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10075789069742314
+  },
+  "correct/severe": {
+    "stability_all": 0.0,
+    "aabb_iou": 0.6495002034016981,
+    "size_relative_error": 0.25368541845328607,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10027641546548693
+  },
+  "correct/short": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9978397406631963,
+    "size_relative_error": 0.0015349620964063891,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10107580467956723
+  },
+  "correct/stack": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9965346488976802,
+    "size_relative_error": 0.0015349620964064553,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.10935446225266787
+  },
+  "settle/hanging": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9995461919719375,
+    "size_relative_error": 0.0,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.03693831900818623
+  },
+  "settle/mesh": {
+    "stability_all": 0.8671875,
+    "aabb_iou": 0.8295932573232012,
+    "size_relative_error": 0.03914672138100814,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.08401413927640533
+  },
+  "settle/penetrating": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9259222053584771,
+    "size_relative_error": 0.0579852385036083,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.08259604169143131
+  },
+  "settle/pose_error": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9993920202503623,
+    "size_relative_error": 0.0,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.0831565206644882
+  },
+  "settle/rotated": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9452682863837872,
+    "size_relative_error": 0.03914672138100814,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.08275096744546317
+  },
+  "settle/severe": {
+    "stability_all": 0.0,
+    "aabb_iou": 0.6495002034016981,
+    "size_relative_error": 0.25368541845328607,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.08002788542580674
+  },
+  "settle/short": {
+    "stability_all": 1.0,
+    "aabb_iou": 0.9452659063576769,
+    "size_relative_error": 0.03914672138100814,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.08170449079261743
+  },
+  "settle/stack": {
+    "stability_all": 0.9921875,
+    "aabb_iou": 0.8961913782421276,
+    "size_relative_error": 0.03914672138100814,
+    "penetrating_fraction": 0.0,
+    "seconds": 0.09235481900759623
+  }
+}

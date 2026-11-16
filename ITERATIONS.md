@@ -1,0 +1,9 @@
+# Five implementation/experiment cycles
+
+1. **Baseline:** establish SI-unit MuJoCo rigid-body scenes and 5-second settling; 16 seeds. Stability alone fails to detect incorrect object dimensions. Snapshot: `results/round01/source`.
+2. **Shape diagnostic:** add first-contact displacement, gravity-aligned canonical stretch and top-face preservation; 32 seeds and three geometric/contact tests. Mean IoU on short-object scenes improves from 0.9453 to 0.9978. Snapshot: `results/round02/source`.
+3. **Contact and constraints:** add penetration correction, bounded failure reporting, bottom-first stacking and single/double pin support; 32 seeds across six scene families. Discover pose-only counterexample (correct ~0.9194 versus settle ~0.9994 IoU). Keep this failure visible. Snapshot: `results/round03/source`.
+4. **Mesh and integration:** accept real triangle meshes, procedural cylinders/cones/ellipsoids, prepared-scene JSON and an explicit resampling callback. Add severe-error cases that cannot be solved without unavailable learned components; do not substitute an oracle. 32 seeds across eight families. Snapshot: `results/round04/source`.
+5. **Robustness and audit:** expand to 64 seeds and three branch thresholds; add eligible-set stability with denominator reporting, unresolved fraction, uncertainty bars, scene visualizations, depth-alignment candidate module, and coverage/reporting. Final source audit added V-HACD concave collision decomposition and recorded the published training hyperparameters. Pre-decomposition results are preserved in `round05_before_vhacd`; the final run is repeated after this change. Snapshot: `results/round05/source`.
+
+Every cycle ran after its changes. Runs 1–4 are preserved, not relabeled as final data. The fifth cycle does not imply five successful replications of the paper: each is a bounded improvement of an incomplete local reproduction.

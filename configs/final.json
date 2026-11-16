@@ -1,0 +1,12 @@
+{
+  "seeds": 64,
+  "workers": 8,
+  "scene_families": 8,
+  "thresholds": [
+    0.05,
+    0.15,
+    0.3
+  ],
+  "timestep": 0.0020833333333333333,
+  "settle_seconds": 5
+}

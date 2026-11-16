@@ -1,0 +1,26 @@
+{
+  "executed": false,
+  "source": "paper Implementation Details paragraph",
+  "latent_pairs": 16600,
+  "occlusion_pairs": 8300,
+  "preservation_pairs": 8300,
+  "pair_weights": [
+    1.0,
+    0.1
+  ],
+  "beta": 500,
+  "lora_rank": 64,
+  "lora_alpha": 128,
+  "lora_dropout": 0,
+  "linear_layers": 120,
+  "transformer_blocks": 24,
+  "global_batch": 16,
+  "optimizer": "AdamW",
+  "lr": 1e-05,
+  "warmup_steps": 300,
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "precision": "bfloat16",
+  "steps": 1500,
+  "hardware": "4 NVIDIA RTX PRO 6000 Blackwell"
+}
