@@ -111,7 +111,7 @@ Independent research implementations with recorded configurations, experimental 
 |:--|:--|
 | [Directional Stationarity](https://github.com/gulucaptain/Directional-Stationarity-Reproduction) | Nonsmooth optimization |
 | [Quadratic Bézier Splatting](https://github.com/gulucaptain/Quadratic-Bezier-Splatting-Reproduction) | Stroke-based rendering |
-| KoalaGS · local project; repository pending | Continuous Gaussian LoD |
+| [KoalaGS](https://github.com/gulucaptain/KoalaGS-Reproduction) | Continuous Gaussian LoD |
 | [PhySPRING](https://github.com/gulucaptain/PhySPRING-Reproduction) | Physics-informed graph reduction |
 | [MatrixSplat](https://github.com/gulucaptain/MatrixSplat-Reproduction) | Matrix-based Gaussian rendering |
 | **SimuScene** · this project | Scene geometry and physics |
